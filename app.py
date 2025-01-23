@@ -18,7 +18,7 @@ def predict():
     try:
         # Convert inputs to floats
         N = float(request.form['Nitrogen'])
-        P = float(request.form['Phosphorus'])  # Fixed the name here
+        P = float(request.form['Phosphorus'])
         K = float(request.form['Potassium'])
         temp = float(request.form['Temperature'])
         humidity = float(request.form['Humidity'])
