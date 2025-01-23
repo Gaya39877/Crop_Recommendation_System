@@ -66,14 +66,14 @@ Follow these steps to set up the project on your local machine:
 
 ```plaintext
 ├── static/
-│   ├── css/            # Stylesheets
-│   └── images/         # Placeholder for UI images
+│   ├── css/            
+│   └── images/         
 ├── templates/
-│   ├── index.html      # Main HTML file
-├── app.py              # Flask application
-├── model.pkl           # Pre-trained ML model
-├── requirements.txt    # Python dependencies
-└── README.md           # Project documentation
+│   ├── index.html      
+├── app.py              
+├── model.pkl           
+├── requirements.txt    
+└── README.md           
 ```
 
 ---
