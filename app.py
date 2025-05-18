@@ -6,9 +6,8 @@ import os
 # Load model and scalers
 
 model = pickle.load(open(os.path.join(os.path.dirname(__file__), 'model.pkl'), 'rb'))
-model = pickle.load(open(os.path.join(os.path.dirname(__file__), 'standscaler.pkl'), 'rb'))
-model = pickle.load(open(os.path.join(os.path.dirname(__file__), 'minmaxscaler.pkl'), 'rb'))
-
+sc = pickle.load(open(os.path.join(os.path.dirname(__file__), 'standscaler.pkl'), 'rb'))
+mx = pickle.load(open(os.path.join(os.path.dirname(__file__), 'minmaxscaler.pkl'), 'rb'))
 
 app = Flask(__name__)
 
